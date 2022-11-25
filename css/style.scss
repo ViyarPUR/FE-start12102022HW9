@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Philosopher';
+    font-size: 10px;
+}
+$bgfirst: #ffff;
+$bgsecond: #e5e5e5;
+$firstfont: #ffff;
+$secondfont: #ff9900;
+$thirdfont: #0000;
+body{
+    background-color: $bgfirst;
+}
+header{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first{
+    color: $secondfont;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 45px;
+}
+main{
+    background-image: url(../img/banner\ 1.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sbg{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.logo{
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 45px;
+    color: $firstfont;
+}
+.orange{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 27px;
+    color: $secondfont;
+    text-decoration: none;
+    transition: 0.5s;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    &:hover{
+        color: $firstfont;
+        border-bottom: 2px solid #ffff;
+    }
+}
+.linkm{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 27px;
+    color: $firstfont;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    &:hover{
+        color: $secondfont;
+        border-bottom: 2px solid $secondfont;
+    }
+}
+.take{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 27px;
+    text-decoration: none;
+    transition: 0.5s;
+    color: $secondfont;
+    &:hover{
+        color: $firstfont;
+    }
+}
+.mobile_menu{
+    display: none;
+}
+.vitage{
+    display: flex;
+    justify-content: center;
+    gap: 2rem; 
+    margin: 0 auto;
+    padding-top: 27rem;
+    padding-bottom: 27rem;
+}
+.hosp{
+    font-size: 8rem;
+    font-weight: 400;
+    line-height: 35px;
+    color: $firstfont;
+    text-align: right;
+    .second{
+        font-size: 8rem;
+        font-weight: 400;
+        line-height: 90px;
+        color: $secondfont;
+        text-align: right;
+    }
+}
+.hosptext{
+    position: relative;
+    left: 120px;
+}
+.text{
+    font-size: 3.4rem;
+    font-weight: 400;
+    line-height: 25px;
+    color: $firstfont;
+    text-align: left;
+}
+.isa{
+    font-size: 3.4rem;
+    font-weight: 400;
+    line-height: 38px;
+    color: $secondfont;
+    text-align: right;
+}
