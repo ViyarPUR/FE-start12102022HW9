@@ -8,7 +8,7 @@ $bgfirst: #ffff;
 $bgsecond: #e5e5e5;
 $firstfont: #ffff;
 $secondfont: #ff9900;
-$thirdfont: #0000;
+$thirdfont: #000;
 body{
     background-color: $bgfirst;
 }
@@ -120,4 +120,94 @@ main{
     line-height: 38px;
     color: $secondfont;
     text-align: right;
+}
+.our{
+    background-color: $bgsecond;
+    padding-bottom: 13rem;
+    .ourd{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+.story{
+    text-align: left;
+    padding-top: 12rem;
+    .sto{
+        font-size: 4rem;
+        font-weight: 700;
+        color: rgba(0, 0, 0, 1);
+        padding-bottom: 6rem;
+        .stor{
+            font-size: 4rem;
+            font-weight: 700;
+            color: $secondfont;
+        }
+    }
+}
+.firstgrid{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(min-content, max-content));
+    grid-template-rows: 120px 250px 120px 320px;
+    column-gap: 6rem;
+    row-gap: 3rem;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.distr{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: $secondfont;
+    padding-bottom: 2rem;
+}
+.dtext{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: $thirdfont;
+}
+.hram{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.dis{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+}
+.river{
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+.pas{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.street{
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+.world{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.yel{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.kolokol{
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.read{
+    display: flex;
+    justify-content: end;
+    padding-top: 3.5rem;
+    .click{
+        background-color: #0000;
+        border: none;
+        border-bottom: 5px solid #ffe600;
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
 }
